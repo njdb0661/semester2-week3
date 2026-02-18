@@ -23,10 +23,10 @@
 
     // Use only these print statement with appropriate formatting and variable names
 
-    printf("Salary £%.2f", salary);
-    printf("NI contribution £%.2f", NI_Value);
-    printf("Tax contribution £%.2f", taxValue);
-    printf("Take home salary £%.2f", finalSalary);
+    printf("Salary £%.2f\n", salary);
+    printf("NI contribution £%.2f\n", NI_Value);
+    printf("Tax contribution £%.2f\n", taxValue);
+    printf("Take home salary £%.2f\n", finalSalary);
 
     return 0;
  }

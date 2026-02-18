@@ -10,15 +10,15 @@
  int main() {
 
     // define and initialise variables for the problem data 
-   float salary = 36250;
-   int NI_Contribution = 8;
-   int Tax_Contribution = 15;
+   float salary = 36250.0;
+   float NI_Contribution = 8.0;
+   float Tax_Contribution = 15.0;
 
     // calculate the deductions and final take-home salary
-   float NI_Value = salary * (NI_Contribution / 100);
+   float NI_Value = salary * (NI_Contribution / 100.0);
    float NI_Deducted = salary - NI_Value;
 
-   float taxValue = NI_Deducted * (Tax_Contribution / 100);
+   float taxValue = NI_Deducted * (Tax_Contribution / 100.0);
    float finalSalary = NI_Deducted - taxValue;
 
     // Use only these print statement with appropriate formatting and variable names
